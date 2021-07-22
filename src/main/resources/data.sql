@@ -1,0 +1,6 @@
+DROP TABLE IF EXISTS some_table;
+
+CREATE TABLE some_table (
+  id INT AUTO_INCREMENT  PRIMARY KEY,
+  value VARCHAR(250) NOT NULL
+);
